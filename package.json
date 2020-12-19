@@ -1,0 +1,26 @@
+{
+  "devDependencies": {
+    "@fitbit/sdk": "~4.2.0",
+    "@fitbit/sdk-cli": "^1.7.3"
+  },
+  "fitbit": {
+    "appUUID": "8a690845-4a35-4368-a882-8005ca657ec7",
+    "appType": "app",
+    "appDisplayName": "TV Controller",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#8bc34a",
+    "requestedPermissions": [],
+    "buildTargets": [
+      "mira"
+    ],
+    "i18n": {
+      "en-US": {
+        "name": "TV Controller"
+      }
+    },
+    "defaultLanguage": "en-US"
+  },
+  "scripts": {
+    "build": "fitbit-build"
+  }
+}

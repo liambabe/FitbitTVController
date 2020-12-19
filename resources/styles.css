@@ -1,0 +1,11 @@
+.background {
+  viewport-fill: fb-black;
+}
+
+#volumeBtn {
+  font-family: System-Regular;
+}
+
+#powerBtn {
+  height: 70;
+}

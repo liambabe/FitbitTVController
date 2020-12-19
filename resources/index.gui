@@ -1,0 +1,25 @@
+<svg class="background">
+
+  <!-- Volume Buttons -->
+  <svg class="volumeBtn">
+    <use id="volumeUpBtn" href="#square-button-positive" y="10">
+      <set href="#text" attributeName="text-buffer" to="Volume Up" />
+    </use>
+
+    <use id="volumeDownBtn" href="#square-button-negative" y="$">
+      <set href="#text" attributeName="text-buffer" to="Volume Down" />
+    </use>
+  </svg>
+
+  <!-- On/Off Buttons -->
+  <svg class="powerBtn" y="100%-75">
+    <use id="offBtn" href="#square-button-toggle" value="1" fill="fb-light-gray">
+      <set href="#text"  attributeName="text-buffer" to="Off" />
+    </use>
+    
+    <use id="onBtn" href="#square-button-toggle" x="50%" fill="fb-green">
+      <set href="#text"  attributeName="text-buffer" to="On" />
+    </use>
+  </svg>
+
+</svg>
