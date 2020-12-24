@@ -9,7 +9,7 @@
     "appDisplayName": "TV Controller",
     "iconFile": "resources/icon.png",
     "wipeColor": "#8bc34a",
-    "requestedPermissions": [],
+    "requestedPermissions": ["access_internet"],
     "buildTargets": [
       "mira"
     ],

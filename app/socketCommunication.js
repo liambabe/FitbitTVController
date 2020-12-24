@@ -13,7 +13,7 @@ export class SocketCommunication {
     }
 
     // Send a message to the peer
-    export sendMessage(data) {
+    sendMessage(data) {
         if (messaging.peerSocket.readyState === messaging.peerSocket.OPEN) {
             // Send the data to peer as a message
             messaging.peerSocket.send(data);
